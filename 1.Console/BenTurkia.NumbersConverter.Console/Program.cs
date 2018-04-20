@@ -16,7 +16,7 @@ namespace BenTurkia.NumbersConverter.Console
             System.Console.WriteLine(" Please write your Number: ");
             var input = System.Console.ReadLine();
 
-            while (input.All(char.IsNumber))
+            while (input.All(char.IsNumber) && !string.IsNullOrEmpty(input))
             {
                 var number = int.Parse(input);
 
