@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Console", "1.Console", "{4BA1B3C6-7622-4463-A4AF-B4B8FC0F57B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.UI", "2.UI", "{483DE9B3-F4E7-4AAB-95D2-EF48A287B7C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Business", "3.Business", "{5546A6B7-454A-4CD5-817D-4B28B6B1B8FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Utilities", "4.Utilities", "{C9CEC8AE-EA49-4769-B9B5-9432CFE67912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenTurkia.NumbersConverter.Console", "1.Console\BenTurkia.NumbersConverter.Console\BenTurkia.NumbersConverter.Console.csproj", "{07BA6D5B-011D-42AE-A7B8-26110B0F22C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenTurkia.NumbersConverter.Business", "3.Business\BenTurkia.NumbersConverter.Business\BenTurkia.NumbersConverter.Business.csproj", "{CED4E985-1FFB-4D79-8A7E-093BE601CB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenTurkia.NumbersConverter.Utilities", "4.Utilities\BenTurkia.NumbersConverter.Utilities\BenTurkia.NumbersConverter.Utilities.csproj", "{B5B49F9C-34AF-4271-AC81-40198BFA461C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07BA6D5B-011D-42AE-A7B8-26110B0F22C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA6D5B-011D-42AE-A7B8-26110B0F22C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA6D5B-011D-42AE-A7B8-26110B0F22C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA6D5B-011D-42AE-A7B8-26110B0F22C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED4E985-1FFB-4D79-8A7E-093BE601CB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED4E985-1FFB-4D79-8A7E-093BE601CB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED4E985-1FFB-4D79-8A7E-093BE601CB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED4E985-1FFB-4D79-8A7E-093BE601CB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B49F9C-34AF-4271-AC81-40198BFA461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B49F9C-34AF-4271-AC81-40198BFA461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B49F9C-34AF-4271-AC81-40198BFA461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B49F9C-34AF-4271-AC81-40198BFA461C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07BA6D5B-011D-42AE-A7B8-26110B0F22C4} = {4BA1B3C6-7622-4463-A4AF-B4B8FC0F57B9}
+		{CED4E985-1FFB-4D79-8A7E-093BE601CB46} = {5546A6B7-454A-4CD5-817D-4B28B6B1B8FE}
+		{B5B49F9C-34AF-4271-AC81-40198BFA461C} = {C9CEC8AE-EA49-4769-B9B5-9432CFE67912}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EE29DA6-202C-46C5-AB66-BD306122AAAC}
+	EndGlobalSection
+EndGlobal
